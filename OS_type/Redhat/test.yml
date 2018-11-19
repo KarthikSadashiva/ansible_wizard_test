@@ -1,0 +1,6 @@
+---
+hosts: localhost
+tasks:
+  - name: Printing OS_type
+    debug: 
+      msg: "Redhat"
